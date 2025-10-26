@@ -1,0 +1,425 @@
+body, h1, h2, p {
+	margin: 0;
+	padding: 0;
+}
+body {
+	font-family: Pacifico;
+	background-color: #0b1b36;
+	color: #fff;
+}
+.navbar{
+	background-color: #800000;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 2rem 3rem;
+}
+.text {
+	font-size: 3rem;
+	font-weight: bold;
+	letter-spacing: 1px;
+	color: #fff;
+}
+.nav-links {
+	display: flex;
+	gap: 1.5rem;
+	color: #fff;
+}
+
+.nav-links a {
+	text-decoration: none;
+	color: #fff;
+	font-weight: 500;
+	transition: color 0.3s ease;
+	font-size: 1.2rem;
+}
+
+.nav-links a:hover {
+	color: #fff;
+}
+
+/*---------------------------------------------------------------------*/
+
+.container {
+  display: flex;
+  gap: 2rem;
+  align-items: stretch;
+  background-color: #0b1b36;
+  padding: 1rem;
+}
+
+/* Sidebar styling */
+.sidebar {
+  width: 300px;
+  background-color: #e0ebff;
+  border-left: 4px solid #003366;
+  padding: 1.5rem;
+  color: #000;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 1.1rem;
+}
+.content {
+  flex: 1;
+  color: #fff;
+  font-size: 1.1rem;
+}
+.content h1 {
+	font-size: 5rem;
+	font-weight: 900;
+	margin: 0;
+	text-align: left;
+	line-height: 1.2;
+	flex: 1;
+	padding: 0;
+}
+
+.content p{
+	font-size: 1.5rem;
+}
+.content li {
+	margin-bottom: 0.5rem;   /* adds space between list items */
+	font-size: 1.2rem;    /* increases font size (adjust as needed) */
+	color: white;
+}
+
+/*--------------------------------------------------------------------*/
+.format {
+	margin-top: 3rem;
+	font-size: 1.2rem; /* larger text for readability */
+	line-height: 1.7;
+	font-family: Pacifico;
+	padding: 1rem;
+}
+.format h2 {
+	font-size: 2.2rem;
+	color: white; /* IIT maroon theme */
+	margin-bottom: 1rem;
+}
+.format ol {
+	margin-left: 1.5rem;
+	list-style-type: disc;
+	color: white;
+}
+.format li {
+	margin-bottom: 0.75rem;
+	color: white;
+}
+.format figure {
+  margin: 1.5rem 0;
+  text-align: left;
+}
+
+.format img {
+  width: 80%; 
+  max-width: 600px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+.format p {
+	margin-bottom: 1rem;
+	color: white;
+}
+.format a {
+	color: white;
+}
+.container2 {
+  display: flex;
+  gap: 1.5rem;
+  align-items: stretch;
+  background-color: #0b1b36;
+  padding: 1rem;
+}
+
+/* Sidebar styling */
+.sidebar2 {
+  width: 300px;
+  background-color: #e0ebff;
+  border-left: 4px solid #003366;
+  padding: 1.5rem;
+  color: #000;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 1.5rem;
+}
+.content2 {
+  flex: 1;
+  color: #fff;
+  font-size: 1.2rem;
+  gap: 2rem;
+  margin-top: 5rem;
+}
+
+.image-side {
+  display: flex;           /* side-by-side layout */
+  align-items: flex-start; /* align image and text at top */
+  gap: 2rem;               /* space between image and text */
+  margin: 2rem 0;
+  
+}
+
+.image-side figure {
+  flex: 1;                 /* image takes up a portion */
+  margin: 0;
+  padding: 1rem;
+}
+
+.image-side img {
+  max-width: 100%;         /* responsive image */
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+.image-side ol {
+  flex: 1;                 /* text takes remaining space */
+  margin: 0;
+  padding-left: 1rem;
+  color: white;            /* if using dark background */
+  line-height: 1.6;
+  margin-top: 0.5rem;
+  font-size: 1.2rem;
+}
+/*----------------------------------------------------------------*/
+
+.container3 {
+  display: flex;
+  gap: 1rem;
+  align-items: stretch;
+  background-color: #0b1b36;
+  padding: 1rem;
+}
+
+/* Sidebar styling */
+.sidebar3 {
+  width: 300px;
+  background-color: #e0ebff;
+  border-left: 4px solid #003366;
+  padding: 1.5rem;
+  color: #000;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 1.1rem;
+}
+.content3 {
+  flex: 1;
+  color: #fff;
+  font-size: 1.2rem;
+  padding: 2rem;
+}
+
+.summary {
+  display: flex;           /* side-by-side layout */
+  align-items: flex-start; /* align image and text at top */
+  gap: 2rem;               /* space between image and text */
+  margin: 2rem 0;
+}
+
+.summary figure {
+  flex: 1;                 /* image takes up a portion */
+  margin: 0;
+  padding: 1rem;
+}
+
+.summary img {
+  max-width: 100%;         /* responsive image */
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+.summary p{
+	flex: 1;                 /* text takes remaining space */
+	margin: 0;
+	padding-left: 1rem;
+	color: white;            /* if using dark background */
+	line-height: 1.6;
+	margin-top: 0.5rem;
+	font-size: 1.2rem;
+}
+
+/*--------------------------------------------------------------*/
+.inferential {
+	margin-top: 3rem;
+	font-size: 1.1rem; /* larger text for readability */
+	line-height: 1.7;
+	font-family: Pacifico;
+	padding: 1rem;
+}
+.inferential h2 {
+	font-size: 2.2rem;
+	color: white; /* IIT maroon theme */
+	margin-bottom: 1rem;
+}
+.inferential ol {
+	margin-left: 1.5rem;
+	list-style-type: disc;
+	color: white;
+}
+.inferential li {
+	margin-bottom: 0.75rem;
+	color: white;
+}
+.inferential p {
+	margin-bottom: 1rem;
+	color: white;
+}
+.inferential a {
+	color: white;
+}
+.fig5 {
+  display: flex;           /* side-by-side layout */
+  align-items: flex-start; /* align image and text at top */
+  gap: 2rem;               /* space between image and text */
+  margin: 2rem 0;
+  
+}
+
+.fig5 figure {
+  flex: 1;                 /* image takes up a portion */
+  margin: 0;
+  padding: 1rem;
+}
+
+.fig5 img {
+  max-width: 100%;         /* responsive image */
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+.fig5 .ff p {
+	margin-top: 1rem;
+	font-size: 1.1rem;
+	line-height: 1.6;
+	color: #fff;
+}
+.fig5 .ff li {
+	flex: 1;
+	color: #fff;
+	font-size: 1.2rem;
+	padding: 1rem;
+}
+.url a{
+	color: white;
+}
+.container4 {
+  display: flex;
+  gap: 1rem;
+  align-items: stretch;
+  background-color: #0b1b36;
+  padding: 1rem;
+}
+
+/* Sidebar styling */
+.sidebar4 {
+  width: 300px;
+  background-color: #e0ebff;
+  border-left: 4px solid #003366;
+  padding: 1.5rem;
+  color: #000;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 1.1rem;
+}
+.content4 {
+	flex: 1;
+
+}
+.content4 p{
+	flex: 1;
+	color: #fff;
+	font-size: 1.2rem;
+	padding: 1rem;
+}
+.content4 li {
+	margin-bottom: 0.5rem;   /* adds space between list items */
+	font-size: 1.2rem;    /* increases font size (adjust as needed) */
+	color: white;
+}
+.image {
+  display: flex;           /* side-by-side layout */
+  align-items: flex-start; /* align image and text at top */
+  gap: 2rem;               /* space between image and text */
+  margin: 2rem 0;
+  
+}
+
+.image figure {
+  flex: 1;                 /* image takes up a portion */
+  margin: 0;
+  padding: 1rem;
+}
+
+.image img {
+  max-width: 100%;         /* responsive image */
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+.image p {
+  flex: 1;                 /* text takes remaining space */
+  margin: 0;
+  padding-left: 1rem;
+  color: white;            /* if using dark background */
+  line-height: 1.6;
+  margin-top: 2rem;
+  font-size: 1.2rem;
+}
+.last {
+  display: flex;
+  align-items: center;      /* vertically center the text and image */
+  gap: 2rem;                /* space between the image and text */
+  margin: 3rem 0; 
+  padding: 1rem;  /* some space above and below the section */
+}
+
+.last figure {
+  flex: 1;                  /* let image take some width */
+  margin: 0;
+}
+
+.last img {
+  width: 100%;
+  max-width: 500px;         /* controls image size */
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+.last .para {
+  flex: 1.2;                /* slightly wider text column */
+  text-align: left;
+}
+
+.last .para h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: #fff;              /* adjust based on your background */
+}
+
+.last .para p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  color: #fff;              /* adjust to match your theme */
+}
+.footer {
+	position: relative;
+	left: 0;
+	bottom: 0;
+	background-color: #0b1b36;
+	color: #ffffff;
+	text-align: center;
+	padding: 1.5rem 0rem;
+	font-size: 0.8rem;
+	border: 1px;
+	width: 100%;
+	letter-spacing: 0.5px;
+	font-family: Pacifico;
+}
+.footer p {
+	margin: 0;
+}

@@ -1,0 +1,96 @@
+body, h1, h2, p, ul, li {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: Pacifico;
+	background-color: #f5f7fa;
+	color: #fff;
+}
+.navbar{
+	background-color: #800000;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 2rem 3rem;
+}
+.text {
+	font-size: 3rem;
+	font-weight: bold;
+	letter-spacing: 1px;
+}
+.nav-links {
+	display: flex;
+	gap: 1.5rem;
+}
+
+.nav-links a {
+	text-decoration: none;
+	color: #fff;
+	font-weight: 500;
+	transition: color 0.3s ease;
+	font-size: 1.2rem;
+}
+
+.nav-links a:hover {
+	color: #fff;
+}
+.frontpage {
+	background-color: #0b1b36;
+	padding: 2rem 2rem;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	color: white;
+	padding: 4rem 5rem;
+	gap: 6rem;
+	min-height: 90vh;
+}
+.frontpage .left-section {
+	flex: 1;
+}
+.frontpage h1 {
+	font-size: 5rem;
+	font-weight: 900;
+	margin: 0;
+	text-align: left;
+	line-height: 1.2;
+}
+.frontpage .right-secton {
+	flex: 1;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+}
+.frontpage h2 {
+	font-size: 2rem;
+	font-weight: 700;
+	text-align: left;
+	margin-bottom: 1.5rem;
+	
+}
+.frontpage p{
+	font-size: 1.2rem;
+	line-height: 1.6;
+	margin-bottom: 1rem;
+	color: #dfe6f0;
+	text-align: left;
+}
+.footer {
+	position: relative;
+	left: 0;
+	bottom: 0;
+	background-color: #0b1b36;
+	color: #ffffff;
+	text-align: center;
+	padding: 1.5rem 0rem;
+	font-size: 0.8rem;
+	border: 1px;
+	width: 100%;
+	letter-spacing: 0.5px;
+	font-family: Pacifico;
+}
+.footer p {
+	margin: 0;
+}

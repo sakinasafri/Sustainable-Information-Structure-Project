@@ -1,0 +1,510 @@
+body, h1, h2, p,h3 {
+	margin: 1;
+	padding: 1;
+}
+
+body {
+	font-family: Pacifico;
+	background-color: #0b1b36; /* changed to match footer */
+	color: #ffffff; /* white text */
+}
+.navbar{
+	background-color: #800000;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 2rem 3rem;
+}
+.text {
+	font-size: 3rem;
+	font-weight: bold;
+	letter-spacing: 1px;
+	color: #fff;
+}
+.nav-links {
+	display: flex;
+	gap: 1.5rem;
+	color: #fff;
+}
+
+.nav-links a {
+	text-decoration: none;
+	color: #fff;
+	font-weight: 500;
+	transition: color 0.3s ease;
+	font-size: 1.2rem;
+}
+
+.nav-links a:hover {
+	color: #fff;
+}
+.left-intro h1 {
+	font-size: 5rem;
+	font-weight: 900;
+	margin: 0;
+	text-align: left;
+	line-height: 1.2;
+	flex: 1;
+	padding: 1rem 0.5rem;
+}
+
+/* Left: title and intro paragraph */
+.left-intro {
+	display: grid;
+	grid-template-columns: 1.2fr 1fr; /* Left column wider */
+	align-items: center;
+	margin: 0;
+	padding: 2rem 3rem;
+}
+.left-intro p{
+	font-size: 1.5rem;
+}
+/* Right: content areas list */
+
+
+.right-content-areas {
+	width: 35%;
+	text-align: left;
+	position: absolute;
+	top: 200px; /* adjust vertical alignment */
+	right: 5%;
+	margin-left: 3rem;
+	line-height: 1.2;
+	
+	background-color: #e6f3ff; /* soft light blue */
+	border: 2px solid #b3d7ff; /* matching border color */
+	border-radius: 10px; /* smooth rounded edges */
+	padding: 1.5rem; /* space inside the box */
+	box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1); /* subtle shadow for depth */
+}
+.right-content-areas h2{
+	font-size: 2rem;
+	margin-bottom: 0.7rem;
+	color: #003366;
+}
+.right-content-areas h3{
+	font-size: 1.2rem;
+	margin-bottom: 0.7rem;
+	color: #003366;
+}
+.right-content-areas li{
+	margin-bottom: 0.5rem;   /* adds space between list items */
+	font-size: 0.7rem;    /* increases font size (adjust as needed) */
+	color: #003366;
+}
+
+.right-content-areas p {
+	margin-bottom: 0.5rem;   /* adds space between list items */
+	font-size: 1.2rem;    /* increases font size (adjust as needed) */
+	color: #003366;
+}
+/*---------------------------------------------------------*/
+
+.getting-started {
+  margin-top: 3rem;
+  font-size: 1.1rem; /* larger text for readability */
+  line-height: 1.7;
+  font-family: Pacifico;
+}
+
+.getting-started h2 {
+  font-size: 2.2rem;
+  color: white; /* IIT maroon theme */
+  margin-bottom: 1rem;
+}
+
+.getting-started h3 {
+  font-size: 1.6rem;
+  margin-top: 0.3rem;
+  color: white;
+}
+
+.getting-started p {
+  margin-bottom: 1rem;
+}
+
+.getting-started figure {
+  margin: 1.5rem 0;
+  text-align: left;
+}
+
+.getting-started img {
+  width: 80%; 
+  max-width: 600px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+/*----------------------------------------------------------------------*/
+.research-timelines {
+  margin-top: 3rem;
+  font-size: 1.1rem; /* larger text for readability */
+  line-height: 1.7;
+  font-family: Pacifico;
+}
+
+.research-timelines h2 {
+  font-size: 2.2rem;
+  color: #fff; /* IIT maroon theme */
+  margin-bottom: 1rem;
+}
+
+.research-timelines h3 {
+  font-size: 1.6rem;
+  margin-top: 0.3rem;
+  color: white;
+}
+
+.research-timelines p {
+	margin-bottom: 1rem;
+	color: white;
+}
+
+.research-timelines .formula {
+  text-align: center;
+  background-color: #f8f8f8;
+  border-left: 4px solid #800000;
+  padding: 0.75rem 1rem;
+  margin: 1rem 0;
+  font-size: 1.1rem;
+}
+
+.research-timelines ul {
+  margin-left: 1.5rem;
+  list-style-type: disc;
+  color: white;
+}
+
+.research-timelines li {
+  margin-bottom: 0.75rem;
+  color: white;
+}
+.research-timelines {
+  margin-top: 3rem;
+  font-size: 1.1rem;
+  line-height: 1.7;
+  color: #fff;
+}
+
+.research-timelines h2 {
+  font-size: 2.2rem;
+  color: #fff; /* IIT maroon */
+  margin-bottom: 0.5rem;
+}
+
+.research-timelines h3 {
+  font-size: 1.6rem;
+  margin-top: 0.5rem; /* tighter gap like "Getting Started" */
+  margin-bottom: 1rem;
+  color: #fff;
+}
+
+.research-timelines p {
+  margin-bottom: 1rem;
+  color: white;
+}
+
+.research-timelines .formula {
+  text-align: center;
+  background-color: #f8f8f8;
+  border-left: 100px solid #800000;
+  border-right: 100px solid #800000;
+  padding: 0.75rem 1rem;
+  margin: 1rem 0;
+  font-size: 1.1rem;
+  color: black;
+}
+
+.research-timelines ul {
+  margin-left: 1.5rem;
+  list-style-type: disc;
+  color: white;
+}
+
+.research-timelines li {
+  margin-bottom: 0.75rem;
+  color: white;
+}
+
+.container {
+  display: flex;
+  gap: 2rem;
+  align-items: stretch;
+  background-color: #0b1b36;
+  padding: 2rem;
+}
+
+/* Sidebar styling */
+.sidebar {
+  width: 250px;
+  background-color: #e0ebff;
+  border-left: 4px solid #003366;
+  padding: 1.5rem;
+  color: #000;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 1.1rem;
+}
+
+/* Main content styling */
+.content {
+  flex: 1;
+  color: #fff;
+  font-size: 1.1rem;
+}
+
+/*----------------------------------------------------------*/
+
+.determining-resources {
+  margin-top: 3rem;
+  font-size: 1.1rem; /* larger text for readability */
+  line-height: 1.7;
+  font-family: Pacifico;
+}
+
+.determining-resources h3 {
+  font-size: 1.6rem;
+  margin-top: 0.5rem; /* tighter gap like "Getting Started" */
+  margin-bottom: 1rem;
+  color: #fff;
+}
+
+.determining-resources p {
+  margin-bottom: 1rem;
+	color: white;
+}
+
+.determining-resources ul {
+	margin-bottom: 1rem;
+	color: white;
+}
+
+.determining-resources li {
+  margin-bottom: 0.75rem;
+  color: white;
+}
+
+/*-----------------------------------------------------------*/
+
+.requesting-resources {
+  margin-top: 3rem;
+  font-size: 1.1rem;
+  line-height: 1.7;
+  color: #111;
+}
+
+.requesting-resources h2 {
+  font-size: 2.2rem;
+  color: #fff; /* IIT maroon */
+  margin-bottom: 0.5rem;
+}
+
+.requesting-resources h3 {
+  font-size: 1.6rem;
+  margin-top: 0.5rem; /* tighter gap like "Getting Started" */
+  margin-bottom: 1rem;
+  color: #fff;
+}
+
+.requesting-resources p {
+  margin-bottom: 1rem;
+  color: white;
+}
+
+/* Reuse the same text-image style as before */
+.requesting-resources .text-image {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 2rem;
+  margin: 2rem 0;
+  flex-wrap: nowrap;
+  color: white;
+}
+
+.requesting-resources .text-image figure {
+  margin: 0;
+  flex-shrink: 0;
+}
+
+.requesting-resources .text-image img {
+  width: 80%; 
+  max-width: 600px;
+  border-radius: 5px;
+  box-shadow: 0 2px 3px rgba(0, 0, 0, 0.2);
+}
+
+.requesting-resources .text-image .text-side {
+  flex: 1;
+}
+
+
+.container2 {
+  display: flex;
+  gap: 2rem;
+  align-items: stretch;
+  background-color: #0b1b36;
+  padding: 2rem;
+}
+
+/* Sidebar styling */
+.sidebar2 {
+  width: 250px;
+  background-color: #e0ebff;
+  border-left: 4px solid #003366;
+  padding: 1.5rem;
+  color: #000;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 1.1rem;
+}
+
+/* Main content styling */
+.content2 {
+  flex: 1;
+  color: #fff;
+  font-size: 1.1rem;
+}
+.local-library {
+  margin-top: 3rem;
+  font-size: 1.1rem; /* larger text for readability */
+  line-height: 1.7;
+  font-family: Pacifico;
+}
+
+.local-library h2 {
+  font-size: 2.2rem;
+  color: white; /* IIT maroon theme */
+  margin-bottom: 1rem;
+}
+
+.local-library h3 {
+  font-size: 1.6rem;
+  margin-top: 0.3rem;
+  color: white;
+}
+
+.local-library p {
+  margin-bottom: 1rem;
+}
+
+.local-library img {
+  width: 80%; 
+  max-width: 600px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+
+
+.container3 {
+  display: flex;
+  gap: 2rem;
+  align-items: stretch;
+  background-color: #0b1b36;
+  padding: 2rem;
+}
+
+/* Sidebar styling */
+.sidebar3 {
+  width: 250px;
+  background-color: #e0ebff;
+  border-left: 4px solid #003366;
+  padding: 1.5rem;
+  color: #000;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 1.1rem;
+}
+
+.content3 {
+  flex: 1;
+  color: #fff;
+  font-size: 1.1rem;
+}
+.internet-resources {
+  margin-top: 3rem;
+  font-size: 1.1rem; /* larger text for readability */
+  line-height: 1.7;
+  font-family: Pacifico;
+}
+
+.internet-resources h2 {
+  font-size: 2.2rem;
+  color: white; /* IIT maroon theme */
+  margin-bottom: 1rem;
+}
+
+.internet-resources h3 {
+  font-size: 1.6rem;
+  margin-top: 0.3rem;
+  color: white;
+}
+
+.internet-resources p {
+  margin-bottom: 1rem;
+}
+.internet-resources a {
+	color: white;
+}
+
+.container4 {
+  display: flex;
+  gap: 2rem;
+  align-items: stretch;
+  background-color: #0b1b36;
+  padding: 2rem;
+}
+
+/* Sidebar styling */
+.sidebar4 {
+  width: 250px;
+  background-color: #e0ebff;
+  border-left: 4px solid #003366;
+  padding: 1.5rem;
+  color: #000;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 1.1rem;
+}
+
+/* Main content styling */
+.content4 {
+  flex: 1;
+  color: #fff;
+  font-size: 1.1rem;
+}
+.end h2 {
+  font-size: 2.2rem;
+  color: white; /* IIT maroon theme */
+  margin-bottom: 1rem;
+}
+.end p {
+  margin-bottom: 1rem;
+  font-size: 1.2rem;
+}
+.footer {
+	position: relative;
+	left: 0;
+	bottom: 0;
+	background-color: #0b1b36;
+	color: #ffffff;
+	text-align: center;
+	padding: 1.5rem 0rem;
+	font-size: 0.8rem;
+	border: 1px;
+	width: 100%;
+	letter-spacing: 0.5px;
+	font-family: Pacifico;
+}
+.footer p {
+	margin: 0;
+}
